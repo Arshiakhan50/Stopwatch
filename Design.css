@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: local('JetBrainsMono-Regular'),
+        url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+html {
+    height: 100vh;
+    width: 100vw;
+    display: table;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #2b2d37;
+}
+#timer {
+    margin: 0;
+    text-align: center;
+    font-family: 'JetBrainsMono', monospace;
+    color: #ec7279;
+    font-size: 10vw;
+}
+#clipboard {
+    position: fixed;
+    top: -727px;
+}
+.highlighted {
+    color: #2b2d37;
+    background-color: #ec7279;
+}
