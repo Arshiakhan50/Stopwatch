@@ -1,26 +1,26 @@
 # Stopwatch
-Controls
+# Controls
 
-␣: Start/stop
+`␣`: Start/stop
 
-r: Reset
+`r`: Reset
 
-y: Copy time to clipboard
+`y`: Copy time to clipboard
 
-e: Toggle editing mode
+`e`: Toggle editing mode
 
 In editing mode:
 
-j or ←: Move left
+`j` or `←`: Move left
 
-l or →: Move right
+`l` or `→`: Move right
 
-0-9: Replace highlighted digit with pressed digit
+`0-9`: Replace highlighted digit with pressed digit
 
-h: Move to hours
+`h`: Move to hours
 
-m: Move to minutes
+`m`: Move to minutes
 
-s: Move to seconds
+`s`: Move to seconds
 
-d: Move to deciseconds
+`d`: Move to deciseconds
